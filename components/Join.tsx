@@ -31,6 +31,9 @@ const Join = () => {
                     <span className="ml-2">Enviarme emails ocasionales sobre eventos</span>
                     </label>
                 </div>
+                <div className="items-center container flex flex-col gap-5 mx-auto">
+                    <button className="h-10 px-5 m-2 text-blue-100 transition-colors duration-150 bg-blue-700 rounded-lg focus:shadow-outline hover:bg-blue-800">Unirme</button>
+                </div>
             </div>
         </section>
     );
