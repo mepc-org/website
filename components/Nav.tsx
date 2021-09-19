@@ -3,7 +3,7 @@ import React from 'react';
 
 const Nav = () => {
     return (
-        <header className="px-10 md:px-32 flex flex-wrap items-center lg:py-0 py-2 text-darkgrey bg-opacity-70 top-0 fixed w-screen z-10 bg-gray-50 border-b dark:border-darkergrey border-gray-200 dark:bg-black dark:text-white">
+        <header className="px-10 md:px-32 flex flex-wrap items-center lg:py-0 py-2 text-darkgrey  top-0 fixed w-screen z-10 bg-gray-50 border-b dark:border-darkergrey border-gray-200 dark:bg-black dark:text-white">
             <label htmlFor="menu-toggle" className="pointer-cursor lg:hidden block">
                 <svg
                 className="fill-current text-blue dark:text-white"

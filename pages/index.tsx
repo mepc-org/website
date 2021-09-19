@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Nav from "../components/Nav"
 import Hero from "../components/Hero"
 import About from "../components/About"
+import Join from "../components/Join"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <About />
+      <Join />
     </div>
     </>
   )
