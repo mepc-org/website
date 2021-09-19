@@ -12,15 +12,15 @@ const Join = () => {
             <div className="p-4 shadow-md rounded-md text-left" style={{maxWidth: 400}}>
                 <label className="block mb-4">
                     <span className="text-gray-700">Nombre</span>
-                    <input className="form-input mt-1 block w-full shadow-md rounded-md p-2" placeholder="Decinos tu nombre" />
+                    <input className="form-input mt-1 block w-full border-2 border-gray-300 rounded-md p-2" placeholder="Decinos tu nombre" />
                 </label>
                 <label className="block">
                     <span className="text-gray-700">Correo electrónico</span>
-                    <input className="form-input mt-1 block w-full shadow-md rounded-md p-2" placeholder="usuario@ejemplo.com" />
+                    <input className="form-input mt-1 block w-full border-2 border-gray-300 rounded-md p-2" placeholder="usuario@ejemplo.com" />
                 </label>
                 <label className="block mt-4">
                     <span className="text-gray-700">Universidad</span>
-                    <select className="form-select mt-1 block w-full shadow-md rounded-md p-2">
+                    <select className="form-select mt-1 block w-full border-2 border-gray-300 rounded-md p-2">
                     <option>Universidad de Buenos Aires (UBA)</option>
                     <option>Universidad Argentina de la Empresa (UADE) </option>
                     </select>
